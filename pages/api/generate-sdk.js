@@ -16,7 +16,7 @@ export default function handler(req, res) {
         "messages": [
             {
                 "role": "system",
-                "content": "You are content generation tool. After the user provides you with the topic name, article length, and pitch of the article, you will generate the article and respond with ONLY the article in markdown format, and no other extra text."
+                "content": "You are content generation tool. After the user provides you with the topic name, article length, and pitch of the article, you will generate the article and respond with ONLY the article in Markdown format and no other extra text."
             },
             {
                 "role": "user",
